@@ -73,7 +73,6 @@ dependencies:
   - biopython=1.87
   - ipyevents=2.0
   - seqlike=1.5
-  - vina=1.2
   - cclib=1.8
   - jupyterlab-git=0.53
   - pubchempy=1.0
