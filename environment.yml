@@ -1,4 +1,4 @@
-name: chemcomp2.5
+name: chemcompute_25
 channels:
   - conda-forge
 dependencies:
