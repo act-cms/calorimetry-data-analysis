@@ -45,6 +45,9 @@ following content topics:
 
 Portions of this lesson were adapted from: 
 * Garland, Nibler, Shoemaker; Experiments in Physical Chemistry 7th ed.
+* A Creative Commons Textbook for Teaching Scientific Computing to Chemistry Students with Python and Jupyter Notebooks *J. Chem. Educ.* **2021,** 98, 489-494 [DOI: 10.1021/acs.jchemed.0c01071](https://doi.org/10.1021/acs.jchemed.0c01071)
+* Scientific Computing for Chemists: An Undergraduate Course in Simulations, Data Processing, and Visualization *J. Chem. Educ.* **2017,** 94, 592-597 [DOI: 10.1021/acs.jchemed.7b00078](http://dx.doi.org/10.1021/acs.jchemed.7b00078)  
+* Introduction to Stochastic Simulations for Chemical and Physical Processes: Principles and Applications *J. Chem. Educ.* **2017,** 94, 1904-1910 [DOI: 10.1021/acs.jchemed.7b00395](http://dx.doi.org/10.1021/acs.jchemed.7b00395)
 
 ## Lesson Versions & Intended Modalities
 
