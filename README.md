@@ -1,24 +1,22 @@
-Lesson/Module Title
+Calorimetry: Determining Reaction Enthalpies via Analyzing Thermograms
 ===================
 
-Write a short description (2-3 sentences) of your lesson here. The `main`
-branch of your lesson repository is the most public-facing branch, which will
-primarily be accessed by prospective adopting instructors as they explore the
-open educational resources (OER) available on the ACT-CMS portal. Minimally,
-you should address the lesson's purpose, intended audience (course & student
-level), and time required.
+Learn how to analyze thermograms using two methods to determine the instantaneous mixing time (t_mix). 
+The setup of this module uses solution calorimetry but also can be applied to bomb calorimetry.
+This is designed for an upper-level undergradaute Physical Chemistry laboratory class.
+
 
 ## Lesson/Module Contents
 
 Provide a brief overview of the structure of your module or lesson as an
 enumerated list below:
 
-1. Title of first lesson in module
-    * Directory: `01_first-lesson`
-    * Description: Extremely brief description of lesson content
-    * Time: 2-3 hours
-2. Title of second lesson in module (if present)
+1. Introduction
+    * Directory: `01_pre-lab-activity`
+    * Description: This module will go over Python functions and numerical integration.
+    * Time: 0.5-1 hour
+2. Calorimetry
     * Directory: `02_second-lesson`
-    * Description: Extremely brief description of lesson content
+    * Description: Examine thermograms interactively using sample solution calorimetry experimental data
     * Time: 2-3 hours
 
