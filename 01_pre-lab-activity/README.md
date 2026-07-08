@@ -53,9 +53,7 @@ modality of instruction and associated implementation strategies.
 
 | Modality     | Pedagogy                | Role of Instructor                                                       | Lesson Version            |
 |--------------|-------------------------|---------------------------------------------------------------------------|--------------------------|
-| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student-async.ipynb`     |
-| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student-sync-gil.ipynb`  |
-| Synchronous  | LiveCoding              | Demonstrate & narrate process, control pacing, etc.                      | `student-sync-live.ipynb` |
+| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student.ipynb`     |
 
 Also provided to support adopting instructors are
 - `instructor-key.ipynb`: Instructor "key" notebook with completed code cells and full instructor commentary in Markdown cells
