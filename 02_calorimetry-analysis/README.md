@@ -1,14 +1,22 @@
-Lesson 01: Lesson Title
+Lesson 02: Calorimetry
 =======================
 
-The purpose of this lesson is to (brief description of lesson here).
+The purpose of this lesson is to examine thermograms interactively using sample solution calorimetry experimental data.
 
 ## Lesson Information
-### Lesson Learning Outcomes
-At the end of this lesson, students will be able to...
-1. First lesson learning outcome
-2. Second lesson learning outcome
-3. Etc.
+
+#### Questions
+1. What physical processes might cause the temperature to drift before and after the reaction?
+2. How can we fit a thermogram?
+	* Can we use analytical functions to fit our data? Will there be uncertainties in the fittings?
+	* How can fitting lines to the pre- and post-reaction regions help us better estimate the true temperature change?
+	* What assumptions are we making when we use line fits to model the pre- and post-reaction baselines?
+3. How do we calculate the instantaneous mixing time ($t_{mix}$) from our data?
+
+#### Objectives
+1. Use non-linear numerical fitting techniques to fit experimental data.
+2. Use Python functions to simplify repetitive tasks.
+3. Calculate $\Delta H_{rxn}$ using calorimetric techniques.
 
 ### Cyberinfrastructure Prerequisites
 
@@ -17,50 +25,37 @@ and/or completed the following modules/lessons available on the ACT-CMS Portal:
 
 * Basic skills in Python programming and syntax
     - [Introduction to Programming for Molecular Scientists](https://act-cms.molssi.org/portal/lessons/foundational-intro-python/)
-* Another set of skills (if necessary)
-    - Linked resource for students to acquire these skills
-* Etc.
+	- [Introduction to Programming with Chemical Applications](https://act-cms.molssi.org/portal/lessons/intro-to-programming-with-chem-applications/)
 
 ### Content Prerequisites
 
 Before beginning this lesson, students are expected to be familiar with the
 following content topics:
 
-* Topic 1 (level of depth)
-* Thermochemistry (first-year general chemistry)
-* Etc.
+* Calculus
+* Calorimetry
+* Thermodynamics
 
 ### Resources
 
 * Relevant list of resources for students to access if needed
-* [MolSSI Workshop: Python Scripting for Computational Molecular Sciences](https://education.molssi.org/python_scripting_cms/)
+* [Lab Handout](https://github.com/act-cms/calorimetry-data-analysis/tree/main/02_calorimetry-analysis/calorimetry_handout.md)
 * [MolSSI CMS Python Workshop: Introduction](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
-* Etc.
 
 ### References
+* Garland, Nibler, Shoemaker; Experiments in Physical Chemistry 7th ed.
 
-Portions of this lesson were adapted from: 
-* Lesson citation or reference, with associated link
-* [OpenStax Chemistry 2e](https://openstax.org/details/books/chemistry-2e)
-* Etc.
 
 ## Lesson Versions & Intended Modalities
 
-Three versions of this lesson are provided, each with a different intended
+The Student.ipynb file of this lesson and can be implemented with the following
 modality of instruction and associated implementation strategies.
 
 | Modality     | Pedagogy                | Role of Instructor                                                       | Lesson Version            |
 |--------------|-------------------------|---------------------------------------------------------------------------|--------------------------|
-| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student-async.ipynb`     |
-| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student-sync-gil.ipynb`  |
-| Synchronous  | LiveCoding              | Demonstrate & narrate process, control pacing, etc.                      | `student-sync-live.ipynb` |
+| Asynchronous | Guided Inquiry Learning | N/A (independent student learning)                                       | `student.ipynb`     |
+| Synchronous  | Guided Inquiry Learning | Facilitate student process, answer questions, ensure nobody falls behind | `student.ipynb`  |
 
 Also provided to support adopting instructors are
 - `instructor-key.ipynb`: Instructor "key" notebook with completed code cells and full instructor commentary in Markdown cells
-- `instructor-notes.ipynb`: Author notes for adopting instructors, including implementation strategies, common issues & workarounds, piloting notes, etc.
-
-See the `instructor-notes.ipynb` For more information about implementation
-strategies from the lesson author.
-
-
 
